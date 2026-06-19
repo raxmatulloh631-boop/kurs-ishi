@@ -1,5 +1,5 @@
 # 1. Python-ning rasmiy engil obrazidan foydalanamiz
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 # 2. Server ichidagi ishchi papkani belgilaymiz
 WORKDIR /app
