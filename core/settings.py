@@ -31,14 +31,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    # Yuklab olingan uchinchi tomon kutubxonalari
     'rest_framework',
     'rest_framework_simplejwt',
     'drf_spectacular',
-
-    # Biz yaratgan ilova
-    'store',
+    'water',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
